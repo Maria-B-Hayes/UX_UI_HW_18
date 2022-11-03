@@ -1,0 +1,62 @@
+body {
+   background-color: white; 
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+p {
+
+}
+header {
+   display: ;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  border: pink solid 4px;
+}
+li {
+   display: inline-block;
+   font: black;
+   font-size: 20px;
+   padding: 20px;
+   vertical-align: top;
+}
+.topNavbar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+}
+.navPage {
+   display: inline-block;
+   text-align: center;
+
+}
+a {
+   float: center;
+   text-align: center;
+}
+.hero {
+   display: flex;
+   margin: auto;
+   background-color: pink;
+}
+
+
+
+
+
+
+
