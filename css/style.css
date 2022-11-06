@@ -1,7 +1,7 @@
 body {
    background-color: white; 
 }
-hh1 {
+h1 {
    font-family: 'Handlee', cursive;
    font-style: normal;
    font-size: 70px;
@@ -10,20 +10,21 @@ hh1 {
 }
 h2 {
    font-family: 'Holtwood One SC', serif;
+   color: #FF2D55;
 }
 h3 {
 
 }
 h4 {
    font-family: 'Sura', serif;
-   font-size: 20px;
-
-
+   font-size: 20px; 
 }
 p {
    font-family: 'Rancho', cursive;
    font-size: 25px
-
+}
+img {
+   border-radius: 8px;
 }
 header {
    font-family: 'Sura', serif;
@@ -34,7 +35,7 @@ footer {
 .navBar {
   display: flex;
   align-items: center;
-  border: #C80EB5 solid 4px;
+  border: #C80EB5 double 6px;
 }
 li {
    display: inline-block;
@@ -64,11 +65,54 @@ a {
    display: flex;
    margin: auto;
    background-color:  #c80eb538;
+   padding: 15px;
+   
 }
+.container {
+   display: right;
+   align-items: center;
+   padding: 20px;
 
+}
+   .flexContainer {
+      display: flex;
+      background-color: #c80eb521;
+}
+   .flexContainer > div {
+      border: #C80EB5 double 6px;
+      margin: 10px;
+      padding: 20px;
+      font-size: 15px;
+ }
+.container {
+   display: flex;
+   margin: auto;
+   padding: 20px;
+   align-items: flex-end;
+}
+.text {
+   padding-left: 20px;
+}
+.projectDetails {
+      margin: 10px;
+      padding: 20px;
+      font-size: 15px;
+}
+.projDetails > div {
+   display: flex;
+   margin: auto;
+   padding: 20px;
+   align-items: flex-end;
 
-
-
-
+}
+.projectDetails {
+   display: flex;
+}
+.projectDetails > div { 
+      border: black double 6px;
+      margin: 10px;
+      padding: 20px;
+      font-size: 15px;
+}
 
 
