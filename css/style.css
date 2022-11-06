@@ -109,10 +109,11 @@ a {
    display: flex;
 }
 .projectDetails > div { 
-      border: black double 6px;
+      border: #C80EB5 double 6px;
       margin: 10px;
       padding: 20px;
       font-size: 15px;
+      background-color: #c80eb521;
 }
 
 
