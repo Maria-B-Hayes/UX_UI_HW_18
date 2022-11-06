@@ -26,7 +26,10 @@ p {
 
 }
 header {
-   display: ;
+   font-family: 'Sura', serif;
+}
+footer {
+   font-family: 'Sura', serif;
 }
 .navBar {
   display: flex;
