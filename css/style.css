@@ -1,19 +1,28 @@
 body {
    background-color: white; 
 }
-h1 {
+hh1 {
+   font-family: 'Handlee', cursive;
+   font-style: normal;
+   font-size: 70px;
+   line-height: 70px;
 
 }
 h2 {
-
+   font-family: 'Holtwood One SC', serif;
 }
 h3 {
 
 }
 h4 {
+   font-family: 'Sura', serif;
+   font-size: 20px;
+
 
 }
 p {
+   font-family: 'Rancho', cursive;
+   font-size: 25px
 
 }
 header {
@@ -22,7 +31,7 @@ header {
 .navBar {
   display: flex;
   align-items: center;
-  border: pink solid 4px;
+  border: #C80EB5 solid 4px;
 }
 li {
    display: inline-block;
@@ -51,7 +60,7 @@ a {
 .hero {
    display: flex;
    margin: auto;
-   background-color: pink;
+   background-color:  #c80eb538;
 }
 
 
