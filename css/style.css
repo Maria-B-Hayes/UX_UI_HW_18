@@ -35,7 +35,7 @@ footer {
 .navBar {
   display: flex;
   align-items: center;
-  border: #C80EB5 double 6px;
+  border: #C80EB5 solid 6px;
 }
 li {
    display: inline-block;
@@ -64,7 +64,7 @@ a {
 .hero {
    display: flex;
    margin: auto;
-   background-color:  #c80eb538;
+   background-color:  #c80eb521;
    padding: 15px;
    
 }
@@ -76,19 +76,21 @@ a {
 }
    .flexContainer {
       display: flex;
+      flex-direction: row;
       background-color: #c80eb521;
 }
    .flexContainer > div {
       border: #C80EB5 double 6px;
       margin: 10px;
-      padding: 20px;
+      padding: 30px;
       font-size: 15px;
  }
 .container {
    display: flex;
+   flex-direction: row-reverse;
    margin: auto;
    padding: 20px;
-   align-items: flex-end;
+   
 }
 .text {
    padding-left: 20px;
@@ -109,11 +111,45 @@ a {
    display: flex;
 }
 .projectDetails > div { 
-      border: #C80EB5 double 6px;
-      margin: 10px;
-      padding: 20px;
-      font-size: 15px;
-      background-color: #c80eb521;
+   margin: 10px;
+   padding: 20px;
+   font-size: 15px;
+      
 }
+.grid-container {
+   display: grid;
+   column-gap: 20px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   padding: 10px;
+}
+.grid-item {
+   background-color: #c80eb521;
+   border: #C80EB5 double 6px;
+   padding: 20px;
+   font-size: 15px;
+   text-align: center;
+}
+.grid-container {
+   display: grid;
+   column-gap: 50px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   padding: 10px;
+}
+.grid-item {
+   background-color: #c80eb521;
+   border: #C80EB5 double 6px;
+   padding: 50px;
+   font-size: 15px;
+   text-align: center;
 
+}
+@media only screen and (max-width: 600){
+   flex-direction: column-reverse;
+   .projectDetails { 
+      width: 100%;
+      border: 1px solid  #C80EB5
+      }
+}
 
